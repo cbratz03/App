@@ -29,10 +29,13 @@ namespace App1
             expr = Console.ReadLine();
 
             if (expr == "+")
+            {
                 sum = (numOne + numTwo);
+            }
             else if (expr == "*")
+            {
                 sum = (numOne * numTwo);
-
+            }
 
             Console.WriteLine(sum);
 
